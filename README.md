@@ -3,8 +3,12 @@ A pulp-fiction themed website. Yes, a website on Quentin Jerome Tarantino's movi
 
 # Usage
 clone the repo:
-```git clone https://github.com/Zi9a/xpulp.git```
+```bash
+git clone https://github.com/Zi9a/xpulp.git
+```
 
 Open it in a web-browser
-```open index.html ```
+```bash
+open index.html 
+```
 
