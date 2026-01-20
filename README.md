@@ -1,5 +1,6 @@
 # About
 A pulp-fiction themed website. Yes, a website on Quentin Jerome Tarantino's movie "PULP FICTION".
+![Pulp Fiction](img/github-repo-logo.png) 
 
 # Usage
 clone the repo:
