@@ -1,0 +1,19 @@
+write
+ omething
+to 
+check 
+keybindings
+
+
+
+write
+write
+
+write
+write
+write
+wwrite
+rwrite
+iwrite
+write
+ewrite
