@@ -97,3 +97,31 @@ header button:hover {
   transform: translateY(12%);
   z-index: -1;
 }
+
+.char-box {
+  display: grid;
+  grid-template-areas:
+    "a-one a-two a-three"
+    "b-one b-two b-three"
+    "c-one c-two c-three";
+}
+
+.char-box [src="temp/pulp-fiction-1.png"] {
+  grid-area: a-one
+}
+
+.char-box [src="temp/pulp-fiction-2.png"] {
+  grid-area: a-two
+}
+
+.char-box [src="temp/pulp-fiction-3.png"] {
+  grid-area: a-three
+}
+
+.char-box [src="temp/pulp-fiction-4.png"] {
+  grid-area: b-one
+}
+
+.char-box [src="temp/pulp-fiction-5.png"] {
+  grid-area: b-two
+}
