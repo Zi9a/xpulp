@@ -51,7 +51,7 @@ header {
   text-decoration: none;
 }
 
-header button {
+.nav-button button {
   border: solid black 2px;
   background-color: yellow;
   box-shadow: -3px 3px crimson;
@@ -64,9 +64,10 @@ header button {
   color: black;
   font-weight: bolder;
   transition: transform 0.5s ease-in-out, 0.5s ease-in-out;
+  margin: 10px;
 }
 
-header button:hover {
+.nav-button button:hover {
   color: yellow;
   background-color: crimson;
   box-shadow: 3px -3px yellow;
