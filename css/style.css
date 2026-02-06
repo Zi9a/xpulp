@@ -92,7 +92,6 @@ header {
   margin: 0;
   padding: 0;
   border: 0;
-
   text-shadow: -0.6vw 0.6vw 0 black;
 }
 
@@ -131,6 +130,11 @@ header {
 }
 
 .char-box {
-  grid-template-rows: auto;
-  grid-template-columns: auto;
+  justify-content: space-evenly;
+  gap: 20px;
+  height: 15vw;
+}
+
+.char-box img {
+  height: 15em;
 }
