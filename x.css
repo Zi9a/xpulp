@@ -1,0 +1,17 @@
+body {
+  background-color: black;
+  color: yellow;
+}
+
+div {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 50px;
+}
+
+
+div img {
+  width: 100%;
+}
