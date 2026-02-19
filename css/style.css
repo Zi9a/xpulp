@@ -132,6 +132,10 @@ header {
   transform: translateY(12%);
 }
 
+.char-box {
+  padding-bottom: 100px;
+}
+
 .char-box div {
   padding-top: 10px;
 }
@@ -189,8 +193,19 @@ header {
   text-shadow: -3px 3px var(--main-shadow-color);
   color: yellow;
   user-select: none;
+  font-size: 2vw;
 }
 
 #about h1 {
   text-shadow: -5px 5px var(--main-shadow-color);
+}
+
+.foot {
+  padding: 10%;
+  color: yellow;
+  font-size: 30px;
+}
+
+.foot img {
+  margin-left: 70%;
 }
