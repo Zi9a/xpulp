@@ -17,4 +17,3 @@ let color = {
   }
 }
 const button = document.querySelector("button");
-
