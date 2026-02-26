@@ -236,21 +236,41 @@ header {
   background-image: var(--noise-url);
   padding: 10%;
   color: yellow;
-
-  display: flex;
-  flex-direction: row;
-
   border-top: 2px solid yellow;
-  border-radius: 1em;
-  margin-bottom: 50px;
-  justify-content: center;
+  vertical-align: middle;
 }
 
-.foot>img {
+#pulp_fiction_wiki {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer_image {
   border: 2px solid yellow;
   width: 300px;
   height: 100%;
-  margin-right: 20px;
+  margin: 20px;
+}
+
+.foot a {
+  color: var(--main-text-color);
+  padding-left: 100px;
+}
+
+#github-icon {
+  display: flexbox;
+  justify-content: center;
+  width: 20px;
+}
+
+#credits {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#credits>h2 {
+  padding: 5px;
 }
 
 @media screen and (max-width: 450px) {
@@ -309,4 +329,17 @@ header {
   #about {
     font-size: 1.5vh;
   }
+}
+
+@media screen and (max-width: 800px) {
+
+  #pulp_fiction_wiki {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #pulp_fiction_wiki>img {
+    width: 70vw;
+  }
+
 }
