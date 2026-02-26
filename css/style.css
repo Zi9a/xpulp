@@ -38,6 +38,8 @@ header {
   max-height: fit-content;
   top: 0;
   z-index: 1;
+
+  transition: top 0.5s;
 }
 
 .list-items {
@@ -176,6 +178,11 @@ header {
   background-image: var(--noise-url);
 }
 
+.char-box img:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
 .char-box h1 {
   color: yellow;
   text-shadow: -3px 3px black;
@@ -252,7 +259,7 @@ header {
   margin: 20px;
 }
 
-.foot a {
+#pulp_fiction_wiki a {
   color: var(--main-text-color);
   padding-left: 100px;
 }
@@ -260,7 +267,7 @@ header {
 #github-icon {
   display: flexbox;
   justify-content: center;
-  width: 20px;
+  width: 30px;
 }
 
 #credits {
@@ -271,6 +278,17 @@ header {
 
 #credits>h2 {
   padding: 5px;
+}
+
+#credits a {
+  padding: 5px;
+  transition: transform 0.5s ease-in-out, 0.5s ease-in-out;
+  color: var(--main-text-color);
+}
+
+#credits a:hover {
+  color: green;
+  font-size: 50px;
 }
 
 @media screen and (max-width: 450px) {
