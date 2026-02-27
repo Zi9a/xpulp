@@ -247,11 +247,6 @@ header {
   vertical-align: middle;
 }
 
-#pulp_fiction_wiki {
-  display: flex;
-  flex-direction: row;
-}
-
 #footer_image {
   border: 2px solid yellow;
   width: 300px;
@@ -259,10 +254,22 @@ header {
   margin: 20px;
 }
 
+#pulp_fiction_wiki {
+  display: flex;
+  flex-direction: row;
+}
+
 #pulp_fiction_wiki a {
   color: var(--main-text-color);
   padding-left: 100px;
+  transition: transform 0.5s ease-in-out, 0.5s ease-in-out;
+  font-size: 50px;
 }
+
+#pulp_fiction_wiki a:hover {
+  color: crimson;
+}
+
 
 #github-icon {
   display: flexbox;
@@ -287,7 +294,7 @@ header {
 }
 
 #credits a:hover {
-  color: green;
+  color: crimson;
   font-size: 50px;
 }
 
