@@ -213,6 +213,29 @@ header {
   border: solid 1px #000;
 }
 
+#button-1 a,
+#button-2 a {
+  display: block;
+  border: solid 1px #000;
+}
+
+
+.nav-button #button-1,
+.nav-button #button-2 {
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  border: solid yellow 2px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+  width: fit-content;
+}
+
+.show {
+  display: show;
+}
+
 #about>h1 {
   user-select: none;
 }
@@ -296,6 +319,11 @@ header {
 #credits a:hover {
   color: crimson;
   font-size: 50px;
+
+}
+
+#modal-image {
+  display: none;
 }
 
 @media screen and (max-width: 450px) {

@@ -11,15 +11,3 @@ window.onscroll = function() {
   }
   pervious_scroll_position = current_scroll_position;
 }
-
-
-let primary_color = 'yellow';
-let secondary_color = 'brown';
-
-let buttons = document.querySelectorAll('.dropdown-button');
-
-for (let i = 0; i < buttons.length; ++i) {
-  buttons[i].addEventListener("click", function() {
-    // TODO: MAKE A DROPDOWN
-  });
-}
