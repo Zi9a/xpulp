@@ -58,8 +58,8 @@
       <div class="nav-button">
         <button onclick="toggle_dropdown('dropdown-one')" class="dropdown-button">Theme ▼</button>
         <div id="dropdown-one" class="dropdown-content">
-          <a> Brown </a>
-          <a> cyan </a>
+          <a> urmom </a>
+          <a> urmom </a>
           <a> urmom </a>
           <a> urmom </a>
         </div>
@@ -107,7 +107,7 @@
 
     <div id="jules">
       <h1>JULES</h1>
-      <div class="something">
+      <div>
         <img src="img/pulp_fiction.jpg" alt="pulp_fiction">
         <img src="img/pulp_fiction.jpg" alt="pulp_fiction">
         <img src="img/pulp_fiction.jpg" alt="pulp_fiction">

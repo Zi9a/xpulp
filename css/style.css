@@ -213,12 +213,6 @@ header {
   border: solid 1px #000;
 }
 
-#button-1 a,
-#button-2 a {
-  display: block;
-  border: solid 1px #000;
-}
-
 
 .nav-button #button-1,
 .nav-button #button-2 {
@@ -395,4 +389,33 @@ header {
     width: 70vw;
   }
 
+}
+
+@media screen and (max-width: 1000px) {
+  #pulp_fiction_wiki a {
+    font-size: 20px;
+  }
+
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  font-size: 20px;
+  border: solid yellow 2px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+  width: fit-content;
+}
+
+.dropdown-content a:hover {
+  color: crimson;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.show {
+  display: flex;
 }
