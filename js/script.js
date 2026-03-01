@@ -1,3 +1,4 @@
+
 // hide navbar while scrolling
 let pervious_scroll_position = window.pageYOffset;
 window.onscroll = function() {
@@ -26,4 +27,28 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+let modal = document.getElementById('modal');
+let modal_image = document.getElementById('modal_image');
+
+document.addEventListener('click', (e) => {
+  if (e.target.classList.contains('clickable')) {
+    modal_image.src = e.target.src;
+    modal.classList.add('show_modal');
+  }
+
+  if (e.target === modal) {
+    modal.classList.remove('show_modal');
+  }
+})
+
+
+
+
+
+
+
+
+
 

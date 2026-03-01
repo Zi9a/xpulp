@@ -113,6 +113,10 @@ header {
   box-shadow: 3px -3px var(--navbar-button-background-color);
 }
 
+#about {
+  font-family: Cascadia Mono;
+}
+
 #hero-id,
 #foot,
 #about {
@@ -155,7 +159,8 @@ header {
   padding: 25px;
 
   border-top: 2px solid yellow;
-  background-color: #990026;
+  background: color-mix(in srgb, var(--main-background-color) 80%, black);
+
   background-image: var(--noise-url);
   border-bottom: 2px solid yellow;
   border-radius: 2rem;
@@ -240,7 +245,7 @@ header {
   color: yellow;
   font-size: 2vw;
 
-  background-color: black;
+  background: color-mix(srgb, var(--main-background-color) 90%, brown);
   background-image: var(--noise-url);
   border: 2px solid yellow;
   border-radius: 2rem;
@@ -284,7 +289,7 @@ header {
 }
 
 #pulp_fiction_wiki a:hover {
-  color: crimson;
+  color: var(--main-background-color);
 }
 
 
@@ -418,4 +423,33 @@ header {
 
 .show {
   display: flex;
+}
+
+.modal {
+  display: none;
+  z-index: 5;
+  display: none;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.show_modal {
+  display: block;
+}
+
+.modal.show_modal {
+  display: flex;
+}
+
+#modal_image {
+  height: 30vw;
+  border: 2px solid yellow;
 }
