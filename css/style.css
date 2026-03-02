@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth !important;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: var(--main-background-color);
   background-image: var(--noise-url);
@@ -159,7 +163,7 @@ header {
   padding: 25px;
 
   border-top: 2px solid yellow;
-  background: color-mix(in srgb, var(--main-background-color) 80%, black);
+  background: color-mix(srgb, var(--main-background-color) 80%, black);
 
   background-image: var(--noise-url);
   border-bottom: 2px solid yellow;
@@ -452,4 +456,12 @@ header {
 #modal_image {
   height: 30vw;
   border: 2px solid yellow;
+}
+
+#copy_email {
+  color: yellow;
+}
+
+#copy_email:hover {
+  color: crimson;
 }
