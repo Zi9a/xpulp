@@ -385,6 +385,7 @@ header {
   #about {
     font-size: 1.5vh;
   }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -464,4 +465,11 @@ header {
 
 #copy_email:hover {
   color: crimson;
+}
+
+@media screen and (max-width: 600px) {
+  #modal_image {
+    width: 300px;
+    height: auto;
+  }
 }
